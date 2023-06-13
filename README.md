@@ -1,4 +1,4 @@
-# html-portfolio
+# learning-html-portfolio
 <hr>
 <h2>Learnings</h2>
 <ul>
