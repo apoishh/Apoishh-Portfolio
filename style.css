@@ -1,0 +1,83 @@
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-image: url("./assets/images/9-2022_0827_11045200.jpg");
+    background-position: 50% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cover h1 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #EDE8DF;
+    text-align: left;
+    padding: 1rem 5rem;
+    text-shadow: 2px 4px 4px #343B3B;
+}
+
+#cover h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #EDE8DF;
+    text-shadow: 2px 4px 4px #343B3B;
+    font-size: 5rem;
+    text-align: right;
+    padding: 0rem 5rem;
+    padding-top: 20rem;
+}
+
+#cover h2 span {
+    color: #CB745F;
+}
+
+#cover h3 {
+    font-family: 'Inconsolata', monospace;
+    color: #EDE8DF;
+    text-shadow: 2px 4px 4px #343B3B;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0rem 5rem;
+    padding-bottom: 30rem;
+}
+
+/* content block */
+
+#content-block {
+    margin: auto;
+    /* background-color: #343B3B; */
+    /* height: 3000px;  */
+    width: 95%;
+}
+
+#blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px;
+}
+
+.b-block {
+    background-color: #CB745F;
+    border-radius: 50px;
+}
+
+.b-block p {
+    font-size: 2rem;
+    /* background-color: #343B3B; */
+    border-radius: 50px;
+    margin: 30px;
+}
+
+.normal {
+    background-color: #343B3B;
+}
+
